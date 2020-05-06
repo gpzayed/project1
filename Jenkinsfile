@@ -9,7 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'echo "Hello World, again"'
-                sh 'Today is $(date) and this machine name is: $(hostname).'
+                sh 'echo "Today is $(date) and this machine name is: $(hostname)."'
             }
         }
     }
