@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                sh 'echo "This is a new line.
+                sh 'echo "This is a new line to test.'
             }
         }
     }
