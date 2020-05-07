@@ -10,6 +10,7 @@ pipeline {
                 '''
                 sh 'echo "Hello World, again"'
                 sh 'echo "Today is $(date) and this machine name is: $(hostname)."'
+                sh 'echo "Thanks."'
             }
         }
     }
