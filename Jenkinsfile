@@ -15,13 +15,13 @@ pipeline {
         }
         stage('SecondStage') {
             steps {
-                sh 'Well done, project moved to second stage.'
-                sh 'Some info about system: $(uname -a)'
+                sh 'echo "Well done, project moved to second stage."'
+                sh 'echo "Some info about system: $(uname -a)"'
             }
         }
         stage('Final') {
             steps {
-                sh 'Well done, project completed on $(date)'
+                sh 'echo "Well done, project completed on $(date)"'
             }
         }
     }
