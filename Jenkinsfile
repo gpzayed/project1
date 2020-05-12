@@ -22,6 +22,7 @@ pipeline {
         stage('Final') {
             steps {
                 sh 'echo "Well done, project completed on $(date)"'
+                sh 'echo "This is test-200"'
             }
         }
     }
