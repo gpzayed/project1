@@ -13,5 +13,10 @@ pipeline {
                 sh 'echo "Thanks."'
             }
         }
+        stage('Final') {
+            steps {
+                sh 'Well done, project completed on $(date)'
+            }
+        }
     }
 }
